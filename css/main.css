@@ -5,3 +5,19 @@
 #divMenuItems {
     justify-content: flex-end;
 }
+
+#divAreaUtil {
+    padding-top: 80px;
+}
+
+.card {
+    margin-top: 10px;
+}
+
+.secao-cabecalho {
+    color: #f58634
+}
+
+p {
+    color: rgba(0,0,0,.7);
+}
