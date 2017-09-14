@@ -1,0 +1,40 @@
+#imgSematLogo {
+    height: 50px;
+}
+
+#divMenuItems {
+    justify-content: flex-end;
+}
+
+#divAreaUtil {
+    padding-top: 80px;
+}
+
+.card {
+    margin-top: 10px;
+}
+
+.card.hotel {
+    text-align: center;
+    padding-top: 1rem;
+    background-color: #F7EADF;
+}
+
+.card-block {
+    text-align: justify;
+}
+
+.card-block.hotel p {
+    max-width: 30ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.secao-cabecalho {
+    color: #f58634
+}
+
+p {
+    color: rgba(0, 0, 0, .7);
+}
