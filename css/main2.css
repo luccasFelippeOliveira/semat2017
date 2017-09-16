@@ -14,6 +14,11 @@
     margin-top: 10px;
 }
 
+.apresentacao {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
 .card.hotel {
     text-align: center;
     padding-top: 1rem;
