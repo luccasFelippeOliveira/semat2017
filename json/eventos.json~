@@ -1,0 +1,32 @@
+{
+    "tipoEvento": ["Palestra", "Minicurso", "CoffeBreak", "Apresentacao", "MesaRedonda"],
+    "eventos": [
+	{
+	    "dia": "2017-10-10",
+	    "horarioInicio": "19:00",
+	    "horarioFim": "20:00",
+	    "tipo": "0",
+	    "titulo": "Evento 1",
+	    "apresentador": "Nomes dos professores ou vazio",
+	    "local": "IFTM"
+	},
+	{
+	    "dia": "2017-10-11",
+	    "horarioInicio": "19:00",
+	    "horarioFim": "20:00",
+	    "tipo": "0",
+	    "titulo": "Evento 2",
+	    "apresentador": "Nomes dos professores ou vazio",
+	    "local": "UFTM"
+	},
+	{
+	    "dia": "2017-10-12",
+	    "horarioInicio": "19:00",
+	    "horarioFim": "20:00",
+	    "tipo": "0",
+	    "titulo": "Evento 3",
+	    "apresentador": "Nomes dos professores ou vazio",
+	    "local": "IFTM"
+	}
+    ]
+}

@@ -10,11 +10,23 @@ $(document).ready(function() {
     });
 
     $("#navLogoLink").click(function() {
-        $("#divAreaUtil").load("apresentacao.html")
+        $("#divAreaUtil").load("apresentacao.html");
         navMain.collapse('hide');
     });
 
     $("#navLocalizacaoLink").click(function() {
-        $("#divAreaUtil").load("localizacao.html")
+        $("#divAreaUtil").load("localizacao.html");
     });
+
+    $("#navProgramacaoLink").click(function() {
+        $("#divAreaUtil").load("programacao.html");
+    });
+
+    $("#navSubmissaoLink").click(function () {
+	$("#divAreaUtil").load("submissao.html");
+    });
+
+    $("#navComissaoLink").click(function () {
+	$("#divAreaUtil").load("comissao.html");
+    });    
 });
