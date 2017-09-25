@@ -42,3 +42,8 @@
 p {
     color: rgba(0, 0, 0, .7);
 }
+
+.img-foot {
+    min-height: 80px;
+    max-height: 80px;
+}
