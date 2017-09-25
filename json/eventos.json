@@ -1,32 +1,267 @@
 {
-    "tipoEvento": ["Palestra", "Minicurso", "CoffeBreak", "Apresentacao", "MesaRedonda"],
-    "eventos": [
-	{
-	    "dia": "2017-10-10",
-	    "horarioInicio": "19:00",
-	    "horarioFim": "20:00",
-	    "tipo": "0",
-	    "titulo": "Evento 1",
-	    "apresentador": "Nomes dos professores ou vazio",
-	    "local": "IFTM"
-	},
-	{
-	    "dia": "2017-10-11",
-	    "horarioInicio": "19:00",
-	    "horarioFim": "20:00",
-	    "tipo": "0",
-	    "titulo": "Evento 2",
-	    "apresentador": "Nomes dos professores ou vazio",
-	    "local": "UFTM"
-	},
-	{
-	    "dia": "2017-10-12",
-	    "horarioInicio": "19:00",
-	    "horarioFim": "20:00",
-	    "tipo": "0",
-	    "titulo": "Evento 3",
-	    "apresentador": "Nomes dos professores ou vazio",
-	    "local": "IFTM"
-	}
+    "tipoEvento": ["Credenciamento", "Abertura", "Palestra", "Minicurso", "CoffeBreak", "Apresentacao", "MesaRedonda"],
+    "eventos": [{
+            "dia": "23/10/2017",
+            "horarioInicio": "17:00",
+            "horarioFim": "19:00",
+            "tipo": "0",
+            "titulo": "Credenciamento",
+            "apresentador": "",
+            "local": "Auditório IFTM"
+        },
+
+        {
+            "dia": "23/10/2017",
+            "horarioInicio": "19:00",
+            "horarioFim": "19:20",
+            "tipo": "1",
+            "titulo": "Abertura Solene",
+            "apresentador": "",
+            "local": "Auditório IFTM"
+        },
+
+        {
+            "dia": "23/10/2017",
+            "horarioInicio": "19:20",
+            "horarioFim": "20:40",
+            "tipo": "2",
+            "titulo": "Impacto ambiental e sociedade: um desafio para os processos industriais",
+            "apresentador": "Prof. João Frederico da Costa Azevedo 	Meyer - UNICAMP",
+            "local": "Auditório IFTM"
+        },
+
+        {
+            "dia": "23/10/2017",
+            "horarioInicio": "20:40",
+            "horarioFim": "22:00",
+            "tipo": "4",
+            "titulo": "Coffe Break",
+            "apresentador": "",
+            "local": "IFTM"
+        },
+
+        {
+            "dia": "24/10/2017",
+            "horarioInicio": "08:30",
+            "horarioFim": "11:30",
+            "tipo": "3",
+            "titulo": "Minicurso 1: Educação financeira e
+            fiscal: desenvolvendo competências matemáticas e o
+            exercício da cidadania ",
+            "apresentador": "Profa. Carla Madalena Santos - Uniaraxá
+            ",
+            "local": "A definir"
+        },
+
+        {
+            "dia": "24/10/2017",
+            "horarioInicio": "19:00",
+            "horarioFim": "20:30",
+            "tipo": "3",
+            "titulo": "Minicurso 2: Geogebra ou latex
+            ",
+            "apresentador": "Prof. Osmar",
+            "local": "Laboratório C103 - UFTM"
+        },
+
+        {
+            "dia": "24/10/2017",
+            "horarioInicio": "19:00",
+            "horarioFim": "20:30",
+            "tipo": "3",
+            "titulo": "Minicurso 3: Programação Linear",
+            "apresentador": "Profa Alyne Toscano e Prof. Flavio Molina",
+            "local": "Laboratório C102 - UFTM"
+        },
+
+        {
+            "dia": "24/10/2017",
+            "horarioInicio": "19:00",
+            "horarioFim": "20:30",
+            "tipo": "3",
+            "titulo": "Minicurso 4: Biomatemática",
+            "apresentador": "Prof. Nelson Fernando Inforzato",
+            "local": "A definir"
+        },
+
+        {
+            "dia": "24/10/2017",
+            "horarioInicio": "20:20",
+            "horarioFim": "20:40",
+            "tipo": "4",
+            "titulo": "Coffe Break",
+            "apresentador": "",
+            "local": "UFTM"
+        },
+
+        {
+            "dia": "24/10/2017",
+            "horarioInicio": "21:00",
+            "horarioFim": "22:20",
+            "tipo": "3",
+            "titulo": "Minicurso 2: Geogebra ou latex
+            ",
+            "apresentador": "Prof. Osmar",
+            "local": "Laboratório C103 - UFTM"
+        },
+
+        {
+            "dia": "24/10/2017",
+            "horarioInicio": "21:00",
+            "horarioFim": "22:20",
+            "tipo": "3",
+            "titulo": "Minicurso 3: Programação Linear",
+            "apresentador": "Profa Alyne Toscano e Prof. Flavio Molina",
+            "local": "Laboratório C102 - UFTM"
+        },
+
+        {
+            "dia": "24/10/2017",
+            "horarioInicio": "21:00",
+            "horarioFim": "22:20",
+            "tipo": "3",
+            "titulo": "Minicurso 4: Biomatemática",
+            "apresentador": "Prof. Nelson Fernando Inforzato",
+            "local": "A definir"
+        },
+
+        {
+            "dia": "25/10/2017",
+            "horarioInicio": "19:20",
+            "horarioFim": "20:40",
+            "tipo": "2",
+            "titulo": "O processo de ensinar e
+            aprender matemática no contexto da cultura digital ",
+            "apresentador": "Prof. Arlindo José de Souza Junior -UFU",
+            "local": "Auditório IFTM
+            "
+        },
+
+        {
+            "dia": "25/10/2017",
+            "horarioInicio": "20:40",
+            "horarioFim": "21:00",
+            "tipo": "4",
+            "titulo": "Coffe Break",
+            "apresentador": "",
+            "local": "IFTM"
+        },
+
+        {
+            "dia": "25/10/2017",
+            "horarioInicio": "21:00",
+            "horarioFim": "22:20",
+            "tipo": "2",
+            "titulo": "Séries infinitas: 2318 anos de
+            história ",
+            "apresentador": "Prof. Geraldo Botelho",
+            "local": "Auditório IFTM
+            "
+        },
+
+        {
+            "dia": "26/10/2017",
+            "horarioInicio": "19:20",
+            "horarioFim": "20:40",
+            "tipo": "2",
+            "titulo": "Mulheres na Matemática",
+            "apresentador": "Profa. Sidineia Barrozo - UNESP",
+            "local": "Auditório Rubi UFTM
+            "
+        },
+
+        {
+            "dia": "26/10/2017",
+            "horarioInicio": "21:00",
+            "horarioFim": "22:20",
+            "tipo": "2",
+            "titulo": "Mulheres na Matemática",
+            "apresentador": "Profa. Sidineia Barrozo - UNESP",
+            "local": "Auditório Rubi UFTM
+            "
+        },
+
+        {
+            "dia": "26/10/2017",
+            "horarioInicio": "21:00",
+            "horarioFim": "21:30",
+            "tipo": "4",
+            "titulo": "Coffe Break com Apresentação de Pôster",
+            "apresentador": "",
+            "local": "UFTM"
+        },
+
+        {
+            "dia": "26/10/2017",
+            "horarioInicio": "21:30",
+            "horarioFim": "22:30",
+            "tipo": "5",
+            "titulo": "Apresentação oral de Trabalhos
+            ",
+            "apresentador": "",
+            "local": "Salas D104,105,106
+            UFTM "
+        },
+
+        {
+            "dia": "27/10/2017",
+            "horarioInicio": "09:00",
+            "horarioFim": "11:00",
+            "tipo": "3",
+            "titulo": "Minicurso 5: Criando uma WEBQUEST
+            educacional ",
+            "apresentador": "Prof. Warlisson Miranda",
+            "local": "Laboratório no IFTM"
+        },
+
+        {
+            "dia": "27/10/2017",
+            "horarioInicio": "14:00",
+            "horarioFim": "16:00",
+            "tipo": "6",
+            "titulo": "E porque vale a pena ser
+            Professor de Matemática ?
+            ",
+            "apresentador" : "Mediador: Daniel Fernando Bovolenta Ovigli
+            Participantes: Prof.Humberto Bortolossi
+            Alunos egressos da licenciatura: Paloma de Lima Amaral e Roger Santana da Silva
+            Egressos do PROFMAT: Antonio Alberto de Sousa Dias e Maria Teresa Costa Barboza
+            Egressos do Mestrado em educação: Denise Cristina Ferreira e Beatriz Cristina da Silva ",
+            "local": "Auditório IFTM "
+        },
+
+        {
+            "dia": "27/10/2017",
+            "horarioInicio": "16:30",
+            "horarioFim": "18:00",
+            "tipo": "5",
+            "titulo": "Apresentação de Trabalhos do PROFMAT
+            ",
+            "apresentador": "",
+            "local": "Autidório do IFTM"
+        },
+
+        {
+            "dia": "26/10/2017",
+            "horarioInicio": "18:00",
+            "horarioFim": "19:00",
+            "tipo": "4",
+            "titulo": "Coffe Break de encerramento",
+            "apresentador": "",
+            "local": "IFTM"
+        },
+
+        {
+            "dia": "25/10/2017",
+            "horarioInicio": "19:20",
+            "horarioFim": "20:40",
+            "tipo": "2",
+            "titulo": "Palestra de encerramento: O que é Matemática?",
+            "apresentador": "Prof. Humberto Bortolossi -UFF",
+            "local": "Auditório IFTM
+            "
+        },
+
+
     ]
 }
