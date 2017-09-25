@@ -61,20 +61,22 @@ for jsonEvento in jsonEventos:
 eventos = sorted(eventos, key = lambda evento: evento.data)
 
 # Fill the template.
-template ='''
-    <div id="evento_item" class="evento_container">
-	<div class="evento_dia">{0.data}</div>
-	<div class="evento_titulo">{0.titulo}</div>
-	<div class="evento_horarioInicio">{0.horarioInicio}</div>
-	<div class="evento_horarioFim">{0.horarioFim}</div>
-	<div class="evento_apresentador">{0.apresentador}</div>
-	<div class="evento_local">{0.local}</div>
-   </div>
+template = '''
+         <div class="card">
+         <h5  class="card-header">{0.titulo}</h5>
+         <div class="card-block">
+         Horário: {0.horarioInicio} às {0.horarioFim} <br>
+         Apresentador(a): {0.apresentador}
+         Local: {0.local}
+         </div>
+         </div>
 '''
 
-print "<div id=eventos_container>"
+diaTemplate = '''<div class="card"> <h3>{0.data}</h3>'''
+
+print "<div id=eventos_container class=\"card\">"
 dia = eventos[0].data
-diaTemplate =  '''<div class="evento_dia_container">'''
+diaTemplate =  '''<div class="card" >'''
 print diaTemplate
 for ev in eventos:
     if ev.data == dia:

@@ -28,5 +28,26 @@ $(document).ready(function() {
 
     $("#navComissaoLink").click(function () {
 	$("#divAreaUtil").load("comissao.html");
-    });    
+    });
+
+    $("#navInscricaoLink").click(function () {
+	$("#divAreaUtil").load("inscricoes.html");
+    });
+
+    $("#navCertificadosLink").click(function () {
+	$("#divAreaUtil").load("certificados.html");
+    });
+
+    $("#navMinicursosLink").click(function () {
+	$("#divAreaUtil").load("minicursos.html");
+    });
+
+//     $("#linkParticipantes").click(function() {
+// 	console.log("debung");
+// //	$("#divAreaUtil").load("participantes.html");
+//     });    
+
+    $("#navParticipantesLink").click(function() {
+	$("#divAreaUtil").load("participantes.html");
+    });
 });
